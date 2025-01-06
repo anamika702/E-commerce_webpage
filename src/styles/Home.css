@@ -1,0 +1,290 @@
+.hero-banner {
+  background-image: url(Background_img.jpg);
+  color: white;
+  text-align: center;
+  width:100%;
+  height: 90vh;
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  margin-top:0;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color:#E9CCA4;
+  font-weight: bold;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.categories {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.categories h2 {
+  margin-bottom: 30px;
+}
+
+.category-cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.category-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+}
+
+.category-card h3 {
+  margin-top: 10px;
+}
+
+.category-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.category-card a {
+  color: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.category-card a:hover {
+  text-decoration: underline;
+}
+
+
+.featured-products {
+  text-align: center;
+  padding: 0 20px 60px 20px;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.btn-secondary {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.about-us-text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-us-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-us-text p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.cards-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.card button {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.features {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.feature {
+  flex: 1;
+  margin: 15px;
+  text-align: center;
+}
+
+.feature img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.feature h4 {
+  font-size: 16px;
+  color:  #333;
+  margin-bottom: 5px;
+}
+
+.features-container .feature p{
+  font-size: 14px;
+  color: #666;
+}
+
+.feature p {
+  font-size: 14px;
+  color: white;
+}
+
+.discount-section {
+  background-color: #E9CCA4;
+  padding: 20px 10px;
+}
+
+.discount-banner {
+  text-align: center;
+}
+
+.discount-banner h3 {
+  font-size: 24px;
+  color: white;
+}
+
+.discount-banner p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.discount-banner .learn-more {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.discount-banner .learn-more:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}

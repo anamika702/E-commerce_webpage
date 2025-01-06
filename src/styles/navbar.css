@@ -1,0 +1,76 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
+    flex-wrap: wrap; 
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left:20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    font-size: 16px;
+    margin-Left: 30px;
+    flex: 1;
+  }
+  
+  .search-bar button {
+    padding: 8px 19px;
+    border: none;
+    color: white;
+    background-color: #282c34;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .details {
+    position: relative;
+  }
+  
+  .cart {
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    background-color: #282c34;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .login_nav {
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    background-color: #282c34;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  
